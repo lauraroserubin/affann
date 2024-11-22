@@ -19,3 +19,11 @@ print(l1,"list number one")
 print(l2,"list number two")
 print(merged_list,"merged_list")
 print(sorted_list,"Sorted list")
+
+
+for i in range(1, n + 1):
+    for j in range(n - i):
+        print(" ", end="")
+    for k in range(1, 2 * i):
+        print("*", end="")
+    print()
